@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabina Roka Official Website</title>
+    <title>Rabina Roka - Web developer</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+
+    
+    <div class = "sidebar sidebarGo" style="transition: transform 1s ease in ;">
+     
+        <nav>
+            <ul>
+                <li> <a href="/">Home</li>
+                <li><a  href="/intro.html">My introduction</a></li>
+                <li><a href="/linkedln.html"> Linkedln</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="/contact.html">Contact Me</a></li>
+
+                <a href="static/https://www.facebook.com/profile.php?id=100068678105777" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="static/https://www.linkedin.com/in/rabina-roka-b39aa1248/" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                <a href="static/https://github.com/RabinaRoka" class="github"></a><i class="fab fa-github"></i></a>
+            </ul>
+            <div class="copyright py-4 text-center text-black">
+                <div class="copy"><small>Copyright &copy; 2023 <br/>
+                    by Rabina Roka</small></div>
+            </div>
+        </nav>
+    </div>   
+    <div class = "main" >
+        <div class ='hamburger'>
+            <img class="ham" src="/static/hamburger.png" alt="" width = "23">
+            <img class="cross" src="/static/cross.png" alt="" width ="23" >
+
+        </div>
+       <!--TODO: CREATE A GALLERY FOR MY PROJECTS
+            MY PROJECTS BANAUNEY ANI LIST GANAUNEY-->
+            <header>
+                <h1>My Projects</h1>
+              </header>
+              <section id="projects-grid">
+                Hello{{output}}
+                <!--for making data dynamic-->
+               <!-- {% for n in projectsData %}
+                {% endfor %}
+                -- Project items will be added dynamically using JavaScript -->
+              </section>
+            </div>     
+        </div>
+    </div>
+</div>    
+<script src="/static/script.js"></script>   
+</body>
+</html>
